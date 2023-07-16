@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*全局样式*/
+body {
+  font-family: "微软雅黑", Arial, Verdana, Helvetica, sans-serif, "宋体";
+  font-size: 12px;
+  color: #333;
+  background: #fff;
+}
+
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+th,
+img,
+div,
+tr,
+p,
+select,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: 0 none;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+}
+
+a:focus {
+  outline: none;
+}
+
+.clear {
+  clear: both;
+  height: 0px;
+  display: block;
+  line-height: 0px;
+  visibility: hidden;
+  overflow: hidden;
+  zoom: 1;
+}
+
+input {
+  vertical-align: middle;
+  border: none;
+  background: none;
+}
+
+select {
+  vertical-align: middle;
+  border: none;
+  background: none;
+}
+
+button {
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
+
+
+
+textarea,
+input {
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0px;
+  background: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type=button]::-moz-focus-inner,
+input[type=submit]::-moz-focus-inner {
+  border: none;
+}
+
+input[type=button],
+input[type=submit] {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* 鼠标变小手*/
+.cs {
+  cursor: pointer;
+}
+
+
+
+
+html .fixed {
+  *zoom: 1;
+}
+
+/* 不让用户选中 */
+.noselect {
+
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+
+  -khtml-user-select: none;
+  /* Konqueror */
+
+  -moz-user-select: none;
+  /* Firefox */
+
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+
+  user-select: none;
+  /* Non-prefixed version, currently
+  
+  not supported by any browser */
+
+}
+  .scrollbarchange::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 5px; /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+    position: absolute;
+    right: 0px;
+  }
+  .scrollbarchange::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 10px;
+    background: #e0e0e0;
+  }
+  .scrollbarchange::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    border-radius: 10px;
+    background: #f2f2f2;
+  }
+.bg_color{
+    background: #D3C0C98A;
+}
+.flex_x{
+    display: flex;
+}
+.around{
+    justify-content: space-around;
+}
+.between{
+    justify-content: space-between;
+}
+.flex_y{
+    display: flex;
+    flex-direction: column;
+}
+
+.f_60{
+    font-size: 60px;
+}
+.f_25{
+    font-size: 25px;
+}
+.f_22{
+    font-size: 22px;
+}
+.f_28{
+    font-size: 28px;
+}
+.mt_20{
+    margin-top: 20px;
+}
+.mt_60{
+    margin-top: 60px;
+}
